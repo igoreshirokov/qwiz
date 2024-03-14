@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-start">Расчитать стоимость</div>
+    <div class="quiz-root">
+
+        
+    </div>
+    <template id="quiz-template">
+        
+                <div class="quiz-close">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2.0625L38.0624 38.1249" stroke="#45404C" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M2 38.0625L38.0624 2.00005" stroke="#45404C" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="quiz-body">
+                    <div class="quiz-progress">
+                        <div class="quiz-progress-points">
+                            <div class="quiz-progress-point">
+                                <span class="quiz-progress-point__number">1 шаг</span>
+                                <span class="quiz-progress-point__caption">Тип объекта</span>
+                                <div class="quiz-progress-point__dot"></div>
+                            </div>
+                            <div class="quiz-progress-point">
+                                <span class="quiz-progress-point__number">1 шаг</span>
+                                <span class="quiz-progress-point__caption">Тип объекта</span>
+                                <div class="quiz-progress-point__dot"></div>
+                            </div>
+                            <div class="quiz-progress-point">
+                                <span class="quiz-progress-point__number">1 шаг</span>
+                                <span class="quiz-progress-point__caption">Тип объекта</span>
+                                <div class="quiz-progress-point__dot"></div>
+                            </div>
+                            <div class="quiz-progress-point">
+                                <span class="quiz-progress-point__number">1 шаг</span>
+                                <span class="quiz-progress-point__caption">Тип объекта</span>
+                                <div class="quiz-progress-point__dot"></div>
+                            </div>
+                            <div class="quiz-progress-point">
+                                <span class="quiz-progress-point__number">1 шаг</span>
+                                <span class="quiz-progress-point__caption">Тип объекта</span>
+                                <div class="quiz-progress-point__dot"></div>
+                            </div>
+                        </div>
+                        <div class="quiz-progress-line-wrapper">
+                            <div class="quiz-progress-track"></div>
+                            <div class="quiz-progress-line"></div>
+                        </div>
+                    </div>
+                    <div class="quiz-page">
+                        <div class="quiz-page__title">Выберите тип объекта</div>
+                        <p class="quiz-page__error"></p>
+                        <div class="quiz-page__options">
+                            
+                            <div class="quiz-page__option">
+                                <input id="option-1" type="radio" name="page-1" >
+                                <label for="option-1" class="quiz-page__option__name">
+                                    Квартира
+                                </label>
+                            </div>
+        
+                            <div class="quiz-page__option">
+                                <input id="option-2" type="radio" name="page-1" >
+                                <label for="option-2" class="quiz-page__option__name">
+                                    Дом
+                                </label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="quiz-nav">
+                        <div class="quiz-back">
+                            <svg width="17" height="28" viewBox="0 0 17 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 2L3 14L15 26" stroke="#DDDDF8" stroke-width="4" stroke-linecap="round"/>
+                            </svg>
+                                
+                        </div>
+                        <div class="quiz-next">
+                            Далее
+                        </div>
+                        <div class="quiz-nav-caption">или нажмите<br>клавишу Enter</div>
+                    </div>
+                </div>
+                
+    </template>
+    <script src="Quiz.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
